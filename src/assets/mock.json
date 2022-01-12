@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Getting Started with Python",
+        "description": "This course is a no prerequisite introduction to Python Programming. You will learn about variables, conditional execution, repeated execution and how we use functions. The homework is done in a web browser so you can do all of the programming assignments on a phone or public computer..",
+        "creationDate": "2022-04-23T18:25:43.511Z",
+        "duration": 10000,
+        "authors": ["Charles Severance"]
+    },
+    {
+        "title": "Advanced Programming in C++",
+        "description": "Learn the advanced programming topics in the C++ programming language, including functions, computation complexity, arrays and strings.This is the 2nd course in the intermediate undergraduate-level offering in the larger Programming and Data Structures MicroBachelors program. We recommend taking them in order, unless you have a background in these areas already and feel comfortable skipping ahead.",
+        "creationDate": "2022-02-24T18:25:43.511Z",
+        "duration": 1400,
+        "authors": ["Itay Tal", "Aspen Olmsted"]
+    },
+    {
+        "title": "Programming for Data Science",
+        "description": "Learn how to apply fundamental programming concepts, computational thinking and data analysis techniques to solve real-world data science problems.",
+        "creationDate": "2022-03-15T18:25:43.511Z",
+        "duration": 1200,
+        "authors": ["Katrina Falkner", "Claudia Szabo", "Nick Falkner"]
+    }
+]
+        
