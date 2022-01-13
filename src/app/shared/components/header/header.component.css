@@ -1,0 +1,30 @@
+header{
+	margin: 20px;
+	border: 3px solid red;
+}
+.header{
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+img{
+	min-width: 200px;
+	min-height: 60px; /* auto */
+}
+.header div{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.username{
+	margin-right: 20px;
+}
+.btn-login button{
+
+	border: 1px solid purple;
+	padding: 4px 12px;
+	background-color: transparent;
+}
+	

@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="main">
+        <h2>{{course.title}}</h2>
+        <p>{{course.description}}</p>
+    </div>
+    <div class="info">
+        <p><b>Authors: </b>{{course.authors}}</p>
+        <p><b>Duration: </b>{{course.duration * 1000 * 60 | date: 'HH:mm':'UTC'}}</p>
+        <p><b>Created: </b>{{course.creationDate| date: "dd.MM.YYYY"}}</p>
+        <div class="buttons">
+            <ng-content></ng-content>
+        </div>
+    </div>
+</div>
