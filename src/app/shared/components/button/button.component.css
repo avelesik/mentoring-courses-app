@@ -1,7 +1,21 @@
 .btn-action button{
-
-	border: 1px solid purple;
+	border: 3px solid purple;
 	padding: 4px 12px;
 	margin-right: 10px;
 	background-color: transparent;
+}
+
+.btn-action button:hover{
+	background-color: rgb(124, 100, 124)
+}
+
+.btn-action button:focus {
+	outline: none;
+	box-shadow: 0 0 0 3px purple;
+}
+
+.btn-action button:active {
+	background-color: purple;
+	border-color: purple;
+	color: #eee;
 }

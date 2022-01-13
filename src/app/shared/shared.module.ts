@@ -1,4 +1,4 @@
-import { ComponentFactoryResolver, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HeaderComponent } from './components/header/header.component';
@@ -17,9 +17,10 @@ import { SearchComponent } from './components/search/search.component';
   ],
   imports: [
     FontAwesomeModule,
-    CommonModule
+    CommonModule,
   ],
   exports: [
+    FontAwesomeModule,
     HeaderComponent,
     ButtonComponent,
     InfoComponent,
